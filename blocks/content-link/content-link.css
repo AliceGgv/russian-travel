@@ -1,0 +1,8 @@
+.content-link {
+  transition: 3s ease-out;
+  transition-delay: 0.3;
+}
+
+.content-link:hover {
+  opacity: 0.33;
+}
