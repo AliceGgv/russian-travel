@@ -8,6 +8,14 @@
   color: #fff;
 }
 
+@media (max-width: 550px) {
+  .cover__text {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 @media (max-width: 320px) {
   .cover__text {
     max-height: 48px;

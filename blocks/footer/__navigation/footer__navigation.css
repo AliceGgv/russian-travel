@@ -2,10 +2,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .footer__navigation {
     flex-direction: column;
+    align-content: flex-start;
   }
 }
