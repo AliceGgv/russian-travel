@@ -20,18 +20,9 @@
 
 @media (max-width: 768px) {
   .places__list-item {
-    grid-template-columns: minmax(340px, 1fr), minmax(352px, 1fr);
-    gap: 48px 28px;
-    max-width: 720px;
-    padding-bottom: 72px;
-  }
-}
-
-@media (max-width: 500px) {
-  .places__list-item {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 48px 28px;
-    max-width: 500px;
+    max-width: 720px;
     padding-bottom: 72px;
   }
 }
