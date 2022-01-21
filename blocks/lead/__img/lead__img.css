@@ -1,34 +1,25 @@
 .lead__img {
-  padding-top: 64px;
   max-width: 100%;
   max-height: 615px;
-  margin: 0 auto 8px;
+  margin-bottom: 8px;
   display: block;
+  padding-top: 0;
 }
 
 @media (max-width: 1024px) {
   .lead__img {
-    padding-top: 56px;
-    max-width: 100%;
     max-height: 580px;
-    margin-bottom: 8px;
   }
 }
 
 @media (max-width: 768px) {
   .lead__img {
-    padding-top: 56px;
-    max-width: 100%;
     max-height: 480px;
-    margin: 0 0 8px;
   }
 }
 
 @media (max-width: 320px) {
   .lead__img {
-    padding-top: 40px;
-    max-width: 100%;
     max-height: 200px;
-    margin: 0 0 8px;
   }
 }

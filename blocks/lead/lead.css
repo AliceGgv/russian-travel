@@ -1,26 +1,23 @@
 .lead {
-  padding: 0 148px 92px;
+  margin: 0 auto 92px;
   max-width: 984px;
-  max-height: 1005px;
 }
 
 @media (max-width: 1024px) {
   .lead {
-    padding: 0 48px 92px;
     max-width: 928px;
   }
 }
 
 @media (max-width: 768px) {
   .lead {
-    padding: 0 0 88px;
+    margin: 0 0 88px;
     max-width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .lead {
-    padding: 0 0 64px;
-    max-width: 100%;
+    margin: 0 0 64px;
   }
 }

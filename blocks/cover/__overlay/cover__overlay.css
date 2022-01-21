@@ -9,6 +9,7 @@
   background-image: url("../../../images/__train.jpg");
   background-position: center;
   background-size: cover;
+  text-decoration: none;
 }
 
 .cover__overlay::before {

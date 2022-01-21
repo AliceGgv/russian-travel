@@ -20,7 +20,7 @@
 
 @media (max-width: 768px) {
   .places__list-item {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 340px));
     gap: 48px 28px;
     max-width: 720px;
     padding-bottom: 72px;
